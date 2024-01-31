@@ -12,5 +12,12 @@ public class checkTeenager {
           System.out.println("You are not a teenager");
           
         }
+        // efficient way
+       
+          // Scanner sc = new Scanner(System.in);
+          // int num = sc.nextInt();
+          // String evenOrOdd = num % 2 == 0 ? "even" : "odd";
+          // System.out.println(evenOrOdd);
+        
 }
 }
