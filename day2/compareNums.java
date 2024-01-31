@@ -9,8 +9,7 @@ public class compareNums {
         if ( num1 == num2){
           System.out.println("The numbers are equal");
         }
-        else {
-          if( num1 > num2) {
+        else if( num1 > num2) {
             System.out.println(num1 + "is larger than " +num2);
           }
           else {
@@ -19,4 +18,3 @@ public class compareNums {
           }
         }
       }
-}
