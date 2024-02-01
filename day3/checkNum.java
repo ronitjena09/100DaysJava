@@ -7,17 +7,18 @@ public class checkNum {
    //
     Scanner sc = new Scanner(System.in);
     int checkNum = sc.nextInt();
-    if (checkNum == 1) {
-      System.out.println("Hello");
-    }
-    else if(checkNum == 2){
-      System.out.println("Namaste");
-    }
-    else if(checkNum == 3){
-      System.out.println("Bonjour");
-    }
-    else {
-      System.out.println("Invalid Choice");
-    }
+    switch (checkNum){
+        case 1:
+          System.out.println("Hello");
+          break;
+        case 2:
+          System.out.println("Namaste");
+          break;
+        case 3:
+          System.out.println("Bonjour");
+          break;
+        default:
+          System.out.println("Invalid Choice");
+      }
   }
 }
